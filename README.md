@@ -1,7 +1,10 @@
-# terraform-google-vm
-Project APIs
-The following APIs must be enabled on your project:
+# Automating a GCP VM with Terraform
+## Requirements
 
-compute.googleapis.com
+1. Google Cloud Platform(GCP) Project
 
-iam.googleapis.com
+2. GCP service account private key
+
+3. Google Compute Engine
+
+4. Terraform (for automating resource creation)
