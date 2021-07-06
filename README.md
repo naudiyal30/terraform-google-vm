@@ -9,4 +9,4 @@
 
 4. Terraform (for automating resource creation)
 
-5. For github noti testing
+5. test
