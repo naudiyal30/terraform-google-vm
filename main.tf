@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("services-account-key.json")
+  credentials = file("GOOGLE_CREDENTIALS.json")
 
   project = "project-test-1-322009"
   region  = "us-central1"
