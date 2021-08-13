@@ -1,13 +1,13 @@
 provider "google" {
-  credentials = file("services-account-credentials.json")
+  credentials = file("services-account-key.json")
 
-  project = "project-name"
+  project = "project-test-1-322009"
   region  = "us-central1"
   zone    = "us-central1-a"
 }
 
 resource "google_compute_network" "vpc_network" {
-  name = "terraform-network920"
+  name = "terraform-network923"
 }
 
 resource "google_compute_instance" "vm_instance" {
