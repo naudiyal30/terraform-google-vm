@@ -1,5 +1,5 @@
 provider "google" {
-  service_account_key = ${{ secrets.GCP_CREDENTIALS }}
+  credentials = file("GOOGLE_CREDENTIALS.json")
   project = "cs-tmpl-test"
   region  = "us-central1"
   zone    = "us-central1-a"
