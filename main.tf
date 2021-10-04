@@ -1,7 +1,7 @@
 provider "google" {
   credentials = file("GOOGLE_CREDENTIALS.json")
 
-  project = "project-test-1-322009"
+  project = "cs-tmpl-test"
   region  = "us-central1"
   zone    = "us-central1-a"
 }
